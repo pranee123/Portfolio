@@ -1,0 +1,45 @@
+{
+ "chatbotId": "bXjMKhZBClsXI18nUNg3k",
+ "chatbotName": "Agent 4/16/2025, 1:47:07 PM",
+ "startDateStr": "2025-03-16T18:30:00.000Z",
+ "endDateStr": "2025-04-16T18:29:59.999Z",
+ "conversations": [
+  {
+   "chatbot_id": "bXjMKhZBClsXI18nUNg3k",
+   "account_id": "1f909992-277d-41b2-84af-8f91bb883c1f",
+   "country": "India",
+   "created_at": "2025-04-16T08:17:41.689933+00:00",
+   "form_submission": null,
+   "id": "17d8a222-7248-4234-9f59-5969ce2a1bca",
+   "messages": [
+    {
+     "role": "assistant",
+     "type": "text",
+     "content": "Hi! What can I help you with?"
+    },
+    {
+     "id": "1b3c162f-8843-45b4-9563-a6e24031682a",
+     "role": "user",
+     "content": "tell me about praneeth's portfolio"
+    },
+    {
+     "id": "168c8085-8aaa-42c6-98c8-98a47460564a",
+     "stepId": "badc1ad4-a6ff-4ae4-8130-edcf9d90ba72",
+     "role": "assistant",
+     "type": "text",
+     "score": 0.8404442416659782,
+     "content": "Praneeth Goud's portfolio showcases his skills and experience as a Data Analyst. He is well-versed in SQL, Python, Tableau, Machine Learning, and Generative AI. Praneeth completed a Post Graduate Program in Data Science and Engineering from Great Learning in 2024, where he gained hands-on experience in data cleaning, building machine learning models, and understanding AI.\n\nHis professional background includes a Bachelor's degree in Mechanical Engineering and experience as a US Recruiter, where he developed strong analytical and client management skills. Praneeth has worked on various projects, including:\n\n- **Supply Chain Analytics**: Analyzed supply chain data to optimize supplier management.\n- **Prime Insights Power BI Dashboard**: Developed an interactive dashboard analyzing Prime Video titles.\n- **Depression Prediction**: Applied machine learning algorithms to predict depression with a 67% accuracy rate.\n- **Image to Text Converter**: Created a text extraction system using OCR techniques.\n- **Twitter Sentiment Analysis**: Analyzed Twitter data for sentiment classification with 90% accuracy.\n\nHis technical skills include programming languages like SQL and Python, data visualization tools like Power BI and Tableau, and strong analytical abilities. \n\nIf you would like to know more about specific aspects of his portfolio, feel free to ask!"
+    }
+   ],
+   "min_score": 0.840444241665978,
+   "source": "Playground",
+   "anonymous_id": null,
+   "user_id": "403de270-0128-4192-9777-28c48be34d63",
+   "last_message_at": "2025-04-16T08:17:41.689933+00:00",
+   "sentiment": null,
+   "external_conversation_id": null,
+   "topics": [],
+   "external_messages": []
+  }
+ ]
+}
