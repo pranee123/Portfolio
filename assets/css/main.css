@@ -4687,3 +4687,11 @@ input, select, textarea {
 		}
 
 	}
+
+	#github-projects article.post {
+		margin-bottom: 2rem;
+		border: 1px solid #ccc;
+		padding: 1rem;
+		border-radius: 10px;
+	}
+	

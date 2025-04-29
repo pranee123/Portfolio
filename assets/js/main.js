@@ -256,3 +256,29 @@
 		}
 
 })(jQuery);
+
+// ==============================
+// ✅ GitHub Project Integration
+// ==============================
+$(document).ready(function () {
+	const githubUsername = "pranee123";
+
+	// Check if the container exists in HTML
+	if ($("#github-projects").length === 0) return;
+
+	$.get(`https://api.github.com/users/${githubUsername}/repos`, function (repos) {
+		repos.forEach(function (repo) {
+			if (repo.description) {
+				const projectHTML = `
+					<article class="post">
+						<header>
+							<h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+						</header>
+						<p>${repo.description}</p>
+					</article>
+				`;
+				$("#github-projects").append(projectHTML);
+			}
+		});
+	});
+});
